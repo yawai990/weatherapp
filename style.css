@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background: var(--bs-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--bs-light);
+}
+.container{
+    min-height: 60vh !important;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.modal{
+    max-width: 400px;
+    max-height: 250px !important;
+}
+.modal.active{
+    display: block;
+}
+#button:active{
+    transform: translateY(2px);
+}
+.fas{
+    font-size: 4rem !important;
+}
